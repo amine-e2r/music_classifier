@@ -9,10 +9,10 @@ This project implements a music classifier in Python using logistic regression a
 - **Accuracy:** 0.90  
 - **Confusion Matrix:**  
 
-|              | Predicted Class 0 | Predicted Class 1 |
+|              | Predicted 1 | Predicted 0 |
 |--------------|-----------------|-----------------|
-| **Actual 0** | 1804            | 74              |
-| **Actual 1** | 291             | 1561            |
+| **Actual 1** | 1804            | 74              |
+| **Actual 0** | 291             | 1561            |
 
 - The model correctly classified the majority of examples, achieving 90% accuracy.  
 - Most misclassifications occur in class 1 (291 false negatives), suggesting this class is slightly harder to distinguish.  
