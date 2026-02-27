@@ -15,5 +15,5 @@ This project implements a music classifier in Python using logistic regression a
 | **Actual 0** | 291             | 1561            |
 
 - The model correctly classified the majority of examples, achieving 90% accuracy.  
-- Most misclassifications occur in class 1 (291 false negatives), suggesting this class is slightly harder to distinguish.  
+- Most misclassifications occur in class 1 (291 false positive), suggesting this class is slightly harder to distinguish.  
 - Overall, logistic regression with stochastic gradient descent provides a strong baseline for music classification, with potential improvements in reducing errors for the more challenging class.
